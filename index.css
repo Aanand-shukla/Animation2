@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+}
+.box{
+    height:8px;
+    width:10px;
+    /* border-radius:50%; */
+    /* border:2px solid red; */
+    background: red;
+    /* margin: auto; */
+    animation-name:myanime;
+    animation-duration:5s;
+    animation-delay: 3s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+}
+
+@keyframes myanime{
+   from{
+    width:0 ;
+   }
+   to{
+    width: 430px;
+   }
+   0%{
+    background: pink;
+   }
+   30%{
+    background: blue;
+   }
+   45%{
+    background: black;
+   }
+   66%{
+    background: yellow;
+   }
+   100%{
+    background:maroon;
+   }
+}
